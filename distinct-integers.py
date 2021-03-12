@@ -2,20 +2,15 @@ import unittest
 
 def solution_f(A):
   A.sort()
-  last_v = A[0]
   result = 0
-  for v in A[1:]:
-    if last_v == v:
-      diff = 1
+  idx = 1
+  for v in A:
+    diff = v - idx
+    if diff < 0:
+      result -= diff
+    elif diff > 0:
       result += diff
-      last_v = v + diff
-    elif last_v < (v-1):
-      diff = v - last_v - 1
-      result += diff
-      last_v = v + diff
-    else:
-      last_v = v
-
+    idx += 1
   return result
 
 
