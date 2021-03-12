@@ -2,10 +2,9 @@
 
 Some losely relevant notes
 
+```
 import unittest
 
-# you can write to stdout for debugging purposes, e.g.
-# print("this is a debug message")
 
 def solution_a(A):
     A.sort()
@@ -144,6 +143,6 @@ class TestSolutionC(unittest.TestCase):
     self.assertEqual(val, 2)
 
 
-  
+```  
 
 http://bit.ly/owb-logs-2019
