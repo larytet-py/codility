@@ -1,3 +1,11 @@
+'''
+N integers in array of [1..N] In one move you inc/dec the value by 1
+After every move all number should remain within [1..N]
+What is the smallest number of steps to make all values distinct?
+[1,2,1] can be changed in 2 steps [1,2,2], [1,2,3]
+[6,2,3,5,6,3] 4 steps [6,2,1,5,3]
+'''
+
 import unittest
 
 def solution_f(A):
