@@ -1,5 +1,9 @@
 # codility
 
+
+Solutions to some tests at http://codility.com/
+
+
 Some losely relevant notes
 
 ```
