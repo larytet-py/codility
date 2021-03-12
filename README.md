@@ -3,6 +3,8 @@
 
 Solutions to some tests at http://codility.com/
 
+You are probably here because of https://github.com/larytet-py/codility/blob/main/distinct-integers.py
+
 
 Some losely relevant notes
 
